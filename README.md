@@ -1,11 +1,10 @@
 
 ## Integrantes
 
-Lucas Delmasquio Silva
-Samuel Francisco de Oliveira 
-Frederico Gonçalves da Silva Junior
-Nicolas
-
+- Lucas Delmasquio Silva
+- Samuel Francisco de Oliveira 
+- Frederico Gonçalves da Silva Junior
+- Nicolas
 
 ## Orientador
 
