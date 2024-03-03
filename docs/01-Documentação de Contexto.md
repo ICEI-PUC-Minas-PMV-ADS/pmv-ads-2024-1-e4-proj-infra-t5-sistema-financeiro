@@ -10,20 +10,6 @@ Uma pesquisa realizada pela empresa Kaspersky Lab em 2016 revelou que muitos usu
 
 Diante desse panorama, é crucial considerar soluções que ofereçam ferramentas para que as pessoas possam avaliar a robustez de suas senhas, incentivem a criação de senhas mais seguras e forneçam informações pertinentes sobre segurança da informação. O objetivo principal é minimizar o risco de vazamento de informações sensíveis.
 
-
-
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 Temos como principal objetio neste trabalho  auxiliar os usuários na criação de senhas mais seguras.
@@ -43,6 +29,7 @@ Um estudo conduzido por Zviran e Haga (1999) revelou que 80% das senhas utilizam
 Uma pesquisa da Kaspersky Lab, realizada em 21 países, incluindo o Brasil, identificou três erros comuns na criação de senhas pelos usuários: o uso da mesma senha para diversas contas, a utilização indiscriminada de senhas consideradas fracas e o armazenamento inadequado das senhas. Além disso, a pesquisa indicou que 64% das pessoas criam senhas combinando letras e números, 47% utilizam combinações de letras maiúsculas e minúsculas, e apenas 4% recorrem a softwares especializados para gerar senhas robustas.
 
 Considerando que o uso de senhas convencionais ainda é predominante em comparação com métodos como autenticação por aplicativos ou biometria, e que a criação de senhas fortes representa um desafio para muitos usuários, o projeto proposto justifica-se como uma alternativa viável para automatizar a geração de senhas robustas e disponibilizá-las aos usuários, além de oferecer informações relevantes sobre segurança da informação.
+
 ## Público-Alvo
 
 Acreditamos que o projeto em questão tem potencial para beneficiar um amplo grupo de pessoas, dado que o uso de serviços que requerem senhas e logins ainda é bastante comum. No entanto, é crucial destacar que a aplicação proposta pode ser especialmente útil para aqueles que percebem a vulnerabilidade de suas informações no ambiente online.
