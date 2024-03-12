@@ -125,15 +125,45 @@ O projeto está restrito pelos seguintes itens:
 
 # Diagrama de Casos de Uso
 
-Os casos de uso especificam a interação entre o usuário e o sistema. Abaixo está o diagrama de casos de uso para o sistema financeiro:
+## Caso de Uso: Registra Despesas
 
-![Diagrama de Casos de Uso](img/diagrama_casos_uso.png)
+### Descrição:
+O usuário registra suas despesas no sistema.
+
+### Ator Primário:
+Usuário
+
+### Fluxo Principal:
+1. O usuário acessa a função de registro de despesas.
+2. O sistema exibe o formulário de registro de despesas.
+3. O usuário preenche as informações necessárias (valor, categoria, data, etc.).
+4. O usuário confirma o registro da despesa.
+5. O sistema armazena a despesa no banco de dados.
+
+## Caso de Uso: Gera Relatórios Financeiros
+
+### Descrição:
+O usuário gera relatórios financeiros para análise.
+
+### Ator Primário:
+Usuário
+
+### Fluxo Principal:
+1. O usuário acessa a função de geração de relatórios.
+2. O sistema exibe opções para escolher o tipo de relatório desejado (por período, por categoria, etc.).
+3. O usuário seleciona as opções desejadas.
+4. O sistema gera o relatório conforme as seleções do usuário.
+5. O sistema exibe o relatório para o usuário.
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta utilizada para rastrear os requisitos do sistema em diferentes artefatos do projeto. Abaixo está uma representação simplificada da matriz de rastreabilidade:
-
-![Matriz de Rastreabilidade](img/matriz_rastreabilidade.png)
+| Requisitos | Documentação de Especificação | Projeto de Interface | Diagrama de Casos de Uso | Matriz de Rastreabilidade |
+|------------|-------------------------------|----------------------|---------------------------|----------------------------|
+| RF-001     | X                             |                      | X                         | X                          |
+| RF-002     | X                             | X                    |                           | X                          |
+| RF-003     | X                             |                      | X                         | X                          |
+| RF-004     | X                             | X                    | X                         |                            |
+| RF-005     |                               | X                    |                           | X                          |
 
 # Gerenciamento de Projeto
 
