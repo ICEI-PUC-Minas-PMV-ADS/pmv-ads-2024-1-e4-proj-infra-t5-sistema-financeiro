@@ -1,20 +1,95 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+## Introdução
 
-Nesta seção, vamos definir a estrutura do software em termos dos componentes que fazem parte da solução, bem como o ambiente de hospedagem da aplicação.
+Nesta seção, vamos descrever a arquitetura da solução para o sistema financeiro, incluindo os principais componentes do sistema, as tecnologias utilizadas, o ambiente de hospedagem e as diretrizes de qualidade de software.
+
+## Componentes da Solução
+
+O sistema financeiro será composto pelos seguintes componentes:
+
+- **Frontend Web**: Interface de usuário acessível por navegadores web. Desenvolvido utilizando React.js.
+- **Frontend Mobile**: Interface de usuário acessível por dispositivos móveis. Desenvolvido utilizando React Native.
+- **Backend API**: Responsável por fornecer os dados para o frontend e executar a lógica de negócios. Desenvolvido em C# utilizando ASP.NET Core.
+- **Banco de Dados**: Armazenará os dados do sistema. Utilizaremos o MongoDB, um banco de dados NoSQL.
+
+## Tecnologias Utilizadas
+
+- **Linguagens**: C# para a API, JavaScript para o frontend (web e mobile).
+- **Frameworks**: ASP.NET Core para o backend, React para o frontend web, React Native para o frontend mobile.
+- **Banco de Dados**: MongoDB.
+- **Ferramentas de Desenvolvimento**: Visual Studio para C#, Visual Studio Code para JavaScript.
+- **Ferramentas de Versionamento**: Git e GitHub.
+
+## Hospedagem
+
+A aplicação será hospedada em um servidor na nuvem, como o Azure para a API e o GitHub Pages para o frontend web.
+
+## Qualidade de Software
+
+Considerando as diretrizes da norma ISO/IEC 25010, nossa equipe selecionou as seguintes subcaracterísticas de qualidade para nortear o desenvolvimento do projeto do sistema financeiro:
+
+1. **Confiabilidade**:
+   - Métricas: Taxa de falhas, tempo médio entre falhas.
+
+2. **Manutenibilidade**:
+   - Métricas: Tempo médio para correção de bugs, facilidade de extensão do código.
+
+3. **Desempenho**:
+   - Métricas: Tempo de resposta da API, tempo de carregamento das páginas web e mobile.
+
+4. **Usabilidade**:
+   - Métricas: Tempo de aprendizado do usuário, taxa de conclusão de tarefas.
+
+5. **Segurança**:
+   - Métricas: Nível de vulnerabilidades identificadas, tempo médio para correção de vulnerabilidades.
+   - 
+## Considerações Finais
+
+A arquitetura da solução foi cuidadosamente planejada para atender às necessidades do sistema financeiro, garantindo um alto padrão de qualidade, desempenho e segurança. A utilização de tecnologias modernas e práticas recomendadas garantirá a eficiência e escalabilidade do sistema.
+
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente a estrutura do software e como cada uma das classes está interligada. Essas classes servem de modelo para materializar os objetos que executarão na memória.
++---------------------------------------+ +-----------------------------------------+
+| Web Frontend | | Mobile Frontend |
++---------------------------------------+ +-----------------------------------------+
+| React Componentes | | React Native Componentes |
+| | | |
+| API Client (fetch) | | API Client (fetch) |
++---------------------------------------+ +-----------------------------------------+
+
 
 ## Modelo ER
 
-O Modelo ER representa, através de um diagrama, como as entidades se relacionam entre si na aplicação interativa.
+Entidades:
+- Despesa
+- Categoria
+- SistemaFinanceiro
+- UsuarioSistemaFinanceiro
+- Compra
+- ItemCompra
+
+Relacionamentos:
+- Uma Despesa pertence a uma Categoria
+- Uma Despesa é associada a um SistemaFinanceiro
+- Uma Despesa é associada a um UsuarioSistemaFinanceiro
+- Uma Compra é associada a um SistemaFinanceiro
+- Uma Compra é associada a um UsuarioSistemaFinanceiro
+- Uma Compra pode ter vários Itens de Compra
+- Um Item de Compra está associado a uma Compra
+
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
+Tabelas:
+- Despesa (despesa_id, categoria_id, sistema_id, usuario_id, descricao, valor)
+- Categoria (categoria_id, nome)
+- SistemaFinanceiro (sistema_id, nome)
+- UsuarioSistemaFinanceiro (usuario_id, nome)
+- Compra (compra_id, sistema_id, usuario_id, data)
+- ItemCompra (item_id, compra_id, descricao, quantidade, preco_unitario)
+
 
 ## Modelo Físico
 
