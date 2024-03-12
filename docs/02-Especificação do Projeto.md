@@ -6,7 +6,8 @@
 
 ### João Silva
 
-João Silva tem 35 anos, é um empreendedor que administra sua própria empresa de consultoria financeira. Ele precisa de uma solução que o ajude a gerenciar as finanças da empresa de forma eficiente e segura.
+João Silva tem 35 anos, é um empreendedor que administra sua própria empresa de consultoria financeira. Ele precisa de uma solução que o ajude a gerenciar suas finanças de forma eficiente e segura, incluindo despesas pessoais e relacionadas à empresa.
+
 
 ## Histórias de Usuários
 
