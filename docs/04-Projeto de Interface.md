@@ -6,22 +6,72 @@ Nesta seção, apresentaremos a visão geral da interação do usuário pelas te
 
 ## Diagrama de Fluxo
 
-O diagrama de fluxo apresenta o estudo do fluxo de interação do usuário com o sistema, muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
++-----------------------+
+|   Tela de Login       |
++-----------------------+
+           |
+           v
++-----------------------+
+|   Dashboard Principal |
++-----------------------+
+           |
+           v
++-----------------------+
+|   Tela de Transações  |
++-----------------------+
+           |
+           v
++-----------------------+
+|   Tela de Perfil      |
++-----------------------+
 
-![Exemplo de Diagrama de Fluxo](https://i.imgur.com/ZXlScn3.png)
 
 ## Wireframes
 
 Os wireframes são protótipos usados em design de interface para sugerir a estrutura de um site web e seus relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
 ### Tela de Login
-![Wireframe da Tela de Login](https://i.imgur.com/3cdK4AU.png)
++------------------------+
+|   [Logo]               |
+|                        |
+|   Username: __________|
+|   Password: __________|
+|                        |
+|   [Entrar]             |
++------------------------+
+
 
 ### Dashboard Principal
-![Wireframe da Dashboard Principal](https://i.imgur.com/NH0RH0H.png)
++------------------------+
+|   [Logo]               |
+|                        |
+|   Bem-vindo, Usuário!  |
+|                        |
+|   [Resumo Financeiro]  |
+|   [Transações Recentes]|
++------------------------+
+
 
 ### Tela de Transações
-![Wireframe da Tela de Transações](https://i.imgur.com/q6VpN7v.png)
++------------------------+
+|   [Logo]               |
+|                        |
+|   Transações Recentes  |
+|                        |
+|   [Detalhes] [Filtrar] |
+|                        |
+|   [Voltar]             |
++------------------------+
+
 
 ### Tela de Perfil do Usuário
-![Wireframe da Tela de Perfil do Usuário](https://i.imgur.com/lzUM6qZ.png)
++------------------------+
+|   [Logo]               |
+|                        |
+|   Dados do Usuário     |
+|                        |
+|   [Editar Perfil]      |
+|                        |
+|   [Sair]               |
++------------------------+
+
