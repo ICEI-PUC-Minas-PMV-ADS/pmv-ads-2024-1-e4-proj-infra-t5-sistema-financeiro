@@ -11,8 +11,7 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 > - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
 
-Aqui está o HTML incorporado:
 
-<iframe src="index2.html" width="100%" height="600px" frameborder="0"></iframe>
+
 
 
