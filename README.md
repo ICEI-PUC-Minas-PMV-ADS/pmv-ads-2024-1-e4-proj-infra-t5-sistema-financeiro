@@ -1,16 +1,16 @@
-# Projeto: Segurança de Senha
+# Projeto: Sistema Financeiro
 
 ## Descrição do Projeto
-O projeto "Segurança de Senha" visa desenvolver uma aplicação que promova a segurança e proteção das senhas dos usuários em ambientes online. Com o aumento da utilização de serviços digitais que exigem autenticação, a preocupação com a segurança das informações pessoais também cresce. Nossa aplicação busca fornecer uma solução abrangente para este problema, oferecendo funcionalidades como geração de senhas seguras, armazenamento criptografado de senhas, autenticação de dois fatores e monitoramento de atividades suspeitas de login.
+O projeto "Sistema Financeiro" tem como objetivo desenvolver uma aplicação abrangente para gestão financeira, proporcionando aos usuários ferramentas eficientes para controle de despesas, planejamento orçamentário e acompanhamento de transações. Com a crescente necessidade de organização financeira e segurança nas transações online, nossa aplicação busca fornecer uma solução completa e intuitiva para atender a essas demandas, promovendo uma gestão financeira mais eficaz e informada.
 
 ## Integrantes
 - Lucas Delmasquio Silva
-- Samuel Francisco de Oliveira 
+- Samuel Ferreira de Oliveira 
 - Frederico Gonçalves da Silva Junior
 - Nicolas
 
 ## Orientador
-- Pedro Felipe Alves de Oliveira
+- Leonardo
 
 # Documentação
 
