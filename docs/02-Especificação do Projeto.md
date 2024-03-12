@@ -19,7 +19,7 @@ João Silva tem 35 anos, é um empreendedor que administra sua própria empresa 
 
 ### Análise da Situação Atual
 
-Atualmente, as despesas da empresa são registradas manualmente em planilhas eletrônicas, o que torna difícil acompanhar todas as transações.
+Atualmente, as despesas são registradas manualmente em planilhas eletrônicas, o que torna difícil acompanhar todas as transações.
 
 ### Descrição Geral da Proposta
 
@@ -46,50 +46,8 @@ Este processo envolve a geração de relatórios financeiros para análise.
 | ID    | Int  | Identificador único da despesa |
 | Valor | Decimal | Valor da despesa |
 | Data  | Date | Data da despesa |
-
-### Categoria
-
-| Campo | Tipo | Descrição |
-|-------|------|-----------|
-| ID    | Int  | Identificador único da categoria |
-| Nome  | Varchar | Nome da categoria |
-
-### SistemaFinanceiro
-
-| Campo | Tipo | Descrição |
-|-------|------|-----------|
-| ID    | Int  | Identificador único do sistema financeiro |
-| Nome  | Varchar | Nome do sistema financeiro |
-
-### UsuarioSistemaFinanceiro
-
-| Campo | Tipo | Descrição |
-|-------|------|-----------|
-| ID    | Int  | Identificador único do usuário no sistema financeiro |
-| Nome  | Varchar | Nome do usuário |
-| Email | Varchar | Email do usuário |
-| Senha | Varchar | Senha do usuário (criptografada) |
-
-### Compra
-
-| Campo | Tipo | Descrição |
-|-------|------|-----------|
-| ID    | Int  | Identificador único da compra |
-| Valor | Decimal | Valor total da compra |
-| Data  | Date | Data da compra |
-
-### ItemCompra
-
-| Campo | Tipo | Descrição |
-|-------|------|-----------|
-| ID    | Int  | Identificador único do item da compra |
-| Nome  | Varchar | Nome do item |
-| Quantidade | Int | Quantidade do item |
-| PrecoUnitario | Decimal | Preço unitário do item |
-
-## Indicadores de Desempenho
-
-Os principais indicadores de desempenho incluem o total de despesas registradas, o tempo médio de geração de relatórios e a satisfação do usuário.
+| Categoria | Varchar | Categoria da despesa |
+| Descrição | Text | Descrição detalhada da despesa |
 
 ## Requisitos
 # Requisitos
@@ -113,16 +71,6 @@ Os principais indicadores de desempenho incluem o total de despesas registradas,
 | RNF-003| As transações financeiras devem ser processadas em tempo real | Alta    |
 | RNF-004| O sistema deve ser compatível com múltiplos navegadores     | Alta      |
 
-# Restrições
-
-O projeto está restrito pelos seguintes itens:
-
-| ID    | Restrição                                      |
-|-------|------------------------------------------------|
-| R-001 | Disponibilidade de recursos financeiros       |
-| R-002 | Prazo de entrega do projeto                   |
-| R-003 | Tecnologias previamente definidas             |
-
 # Diagrama de Casos de Uso
 
 ## Caso de Uso: Registra Despesas
@@ -136,7 +84,7 @@ Usuário
 ### Fluxo Principal:
 1. O usuário acessa a função de registro de despesas.
 2. O sistema exibe o formulário de registro de despesas.
-3. O usuário preenche as informações necessárias (valor, categoria, data, etc.).
+3. O usuário preenche as informações necessárias (valor, categoria, data, descrição, etc.).
 4. O usuário confirma o registro da despesa.
 5. O sistema armazena a despesa no banco de dados.
 
@@ -180,5 +128,3 @@ O gerenciamento de equipe será feito por meio de uma ferramenta de gestão de t
 ## Gestão de Orçamento
 
 A gestão de orçamento será realizada considerando os recursos financeiros disponíveis e os custos estimados para cada fase do projeto.
-
-
