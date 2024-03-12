@@ -13,4 +13,5 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 
 Aqui está o HTML incorporado:
 
-<iframe src="URL_DO_SEU_ARQUIVO_HTML_NO_GITHUB" style="width: 100%; height: 500px; border: none;"></iframe>
+![Layout Web](https://i.imgur.com/CvVN5aT.png)
+
