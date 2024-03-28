@@ -8,7 +8,7 @@ O projeto "Sistema Financeiro" tem como objetivo desenvolver uma aplicação abr
 - Samuel Ferreira de Oliveira 
 - Frederico Gonçalves da Silva Junior
 - Nicolas
-
+.
 ## Orientador
 - Leonardo
 
